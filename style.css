@@ -1,0 +1,176 @@
+body{
+    background-color: lightblue;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(1, 1, 1);
+    margin: 0;
+      padding: 0;
+      font-size: 16px;
+      line-height: 1.5;
+      font-family: sans-serif;
+  }
+   #container{
+    margin: 0 auto;
+   }
+   nav{
+    margin: 50px 0;
+    background-color: rgb(160, 59, 167);
+   }
+  
+   nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    background-color:  rgb(160, 59, 167);
+  }
+  nav a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  nav a:hover{
+    background-color: rgb(144, 150, 238);
+  }
+  
+  nav ul ul{
+    display: none;
+    position: absolute;
+    top: 60px;
+  }
+  nav ul li:hover > ul{
+    display: inherit ;
+  }
+  nav ul ul li {
+    width: 170px;
+    display:list-item;
+    position: relative;
+  }
+  
+  nav ul ul ul li {
+    width: 170px;
+    display:list-item;
+    position: relative;
+  }
+  /* over perent */
+  li > a:after {content: '+';}
+  /* child */
+  li > a:only-child:after{content: '';}
+  
+  
+  .container{
+    display: flex;
+    width: 65%;
+    float: left;
+    padding: 30px;
+  }
+  
+  img{
+    max-width: 500px;
+  }
+  
+  main{
+    width: 100%;
+  }
+  .mainpoint{
+    background-color: rgb(144, 150, 238);
+    color: #000;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .sidebar{
+    width: 30%;
+    float: right;
+  
+  }
+  button{
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid rgb(255, 106, 47);
+    background-color: chartreuse;
+  }
+  
+  button:hover{
+    background-color: #000;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  .articlecontent{
+    margin: 20px;
+    background-color: #fff;
+  }
+  
+  .plan{
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .news img, .sidebar img{
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .Languages ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  .Languages li{
+    display: inline;
+  }
+  .Languages a{
+    padding: 0 10px;
+    color: #000000;
+    font-size: 30px;
+    line-height: 60px;
+    text-decoration: none;
+    font-size: large;
+  }
+  .Languages a:hover{
+    background-color: rgb(144, 238, 149);
+    font-size: 30px;
+    color: #fff;
+  }
+  .footer{
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    clear: both;
+    width: 100%;
+    column-count: 3;
+    margin: 0px;
+  }
+  
+  .bottomlinks ul{
+    list-style: none;
+    padding: 0px;
+  }
+  .bottomlinks a{
+    display: block;
+    padding: 10px 10px;
+    color: #e6e6e6;
+    font-size: larger;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  
+  .bottomlinks a:hover{
+    background-color: grey;
+  } 
+   .footer .bottomlinks{
+    text-align: center;
+   }
